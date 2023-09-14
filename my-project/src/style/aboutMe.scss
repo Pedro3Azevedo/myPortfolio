@@ -1,0 +1,55 @@
+@import "vars";
+
+#aboutMe {
+
+
+  .event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 60%;
+    transition: width 0.5s ease-in;
+
+    .left {
+      width: 50%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+
+      img{
+        margin: 15px;
+        width: 35%;
+      }
+
+    }
+
+    .right {
+      border-left: 1px solid $primary-color;
+      display: flex;
+      flex-direction: column;
+  
+      width: 50%;
+      padding: 20px;
+
+      .text {
+        font-size: 10px;
+        transition: font-size 0.5s ease-in;
+      }
+    }
+
+    &:hover {
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba($primary-color, 0.2),
+        0 6px 20px 0 rgba($primary-color, 0.19);
+
+      width: 100%;
+
+      .right {
+        .text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

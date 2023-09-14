@@ -1,0 +1,38 @@
+@import "vars";
+
+.navbar {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  .name {
+    color: $primary-color !important;
+    font-size: 20px;
+  }
+
+  a {
+    margin-left: 10px;
+    font-size: 15px;
+
+    &:hover {
+      color: $primary-color !important;
+    }
+  }
+
+  .social {
+    float: right !important;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  &:hover {
+    transition: box-shadow  0.5s ease-in;
+    box-shadow: 0 4px 8px 0 rgba($primary-color, 0.2),
+    0 6px 20px 0 rgba($primary-color, 0.19);
+    
+    .name {
+      transition: text-shadow  0.5s ease-in;
+      text-shadow: 2px 2px 5px $primary-color;
+    }
+  }
+}

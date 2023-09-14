@@ -1,0 +1,27 @@
+[
+        {
+            "year": "2001",
+            "description": "Who am I?",
+            "image": "/aboutMe/portugal.png",
+            "text": "My name is Pedro Azevedo, I was born in Portugal in 2001.\n My interests include Tecnology, Basketball, Music especially playing drums, History and Nature"
+        },
+        {
+            "year": "2016/17",
+            "description": "Interest in tecnologies",
+            "image": "/aboutMe/programming.png",
+            "text":"Started High School in Salesianos de Lisboa in the Science an Tecnologies course, Since I was in high school I started to develop a big interest in tecnologies, and everything around."
+        },
+        {
+            "year": "2020/21",
+            "description": "University",
+            "image": "/aboutMe/isel.png",
+            "text": "Started the degree in Informatic and Multimedia Engineering in Instituto Superior de Engenharia de Lisboa, In 2020 I started to take the Informatic and Multimedia Engeneering degree, with the intention of exploring the area of developing platforms, create digital content, and AI. I will finish the degree in February 2024."
+        },
+        {
+            "year": "Sept 2022 - Jan 2023",
+            "description": "Erasmus",
+            "image": "/aboutMe/fontys.png",
+            "text": "In september of 2022 I started an exchange program in Fontys University of Applied Sciences in the program ICT and Media Design. Here I learnt to use some tools to desing media content, as working with images, 3d models and enviorments, audio and more. I also got some mechanism, ways and tools to come up with ideas and bring them to live in a way that the user can connect easly to the product. Finaly I learnt more about web development, how to collaborate with a team and manage a project with git, how to connect with API's, develop platforms with moders JS, SCSS and using frameworks like Vue.js."
+        }
+
+]

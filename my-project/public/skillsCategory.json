@@ -1,0 +1,104 @@
+[
+    {
+        "category": "Frontend",
+        "skills": [
+            {
+                "skill": "HTML5",
+                "img": "/skills/html5.png"
+            },
+            {
+                "skill": "CSS3",
+                "img": "/skills/css.png"
+            },
+            {
+                "skill": "SCSS",
+                "img": "/skills/scss.png"
+            },
+            {
+                "skill": "JavaScript",
+                "img": "/skills/js.png"
+            },
+            {
+                "skill": "Bootstrap",
+                "img": "/skills/bootstrap.png"
+            },
+            {
+                "skill": "React",
+                "img": "/skills/react.png"
+            },
+            {
+                "skill": "Vue.js",
+                "img": "/skills/vue.png"
+            }
+        ]
+    },
+    {
+        "category": "Backend",
+        "skills": [
+            {
+                "skill": "PHP",
+                "img": "/skills/php.png"
+            },
+            {
+                "skill": "SQL",
+                "img": "/skills/sql.png"
+            }
+        ]
+    },
+    {
+        "category": "Mobile",
+        "skills": [
+            {
+                "skill": "Kotlin",
+                "img": "/skills/kotlin.png"
+            },
+            {
+                "skill": "Android Studio",
+                "img": "/skills/androidStudio.png"
+            }
+        ]
+    },
+    {
+        "category": "General Programming",
+        "skills": [
+            {
+                "skill": "Java",
+                "img": "/skills/java.png"
+            },
+            {
+                "skill": "Python",
+                "img": "/skills/python.png"
+            },
+            {
+                "skill": "OOP",
+                "img": "/skills/oop.png"
+            },
+            {
+                "skill": "Git",
+                "img": "/skills/git.png"
+            }
+        ]
+    },
+    {
+        "category": "Game Development",
+        "skills": [
+            {
+                "skill": "Unity",
+                "img": "/skills/unity.png"
+            },
+            {
+                "skill": "Blender",
+                "img": "/skills/blender.png"
+            }
+        ]
+    },
+    {
+        "category": "Low-Code",
+        "skills": [
+            {
+                "skill": "GeneXus",
+                "img": "/skills/genexus.png"
+            }
+        ]
+    }
+]

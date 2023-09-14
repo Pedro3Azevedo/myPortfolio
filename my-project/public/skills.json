@@ -1,0 +1,94 @@
+[
+
+    {
+        "skill": "HTML5",
+        "img": "/skills/html5.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "CSS3",
+        "img": "/skills/css.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "SCSS",
+        "img": "/skills/scss.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "JavaScript",
+        "img": "/skills/js.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "Bootstrap",
+        "img": "/skills/bootstrap.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "React",
+        "img": "/skills/react.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "Vue.js",
+        "img": "/skills/vue.png",
+        "category": "Frontend"
+    },
+    {
+        "skill": "PHP",
+        "img": "/skills/php.png",
+        "category": "Backend"
+    },
+    {
+        "skill": "SQL",
+        "img": "/skills/sql.png",
+        "category": "Backend"
+    },
+    {
+        "skill": "Kotlin",
+        "img": "/skills/kotlin.png",
+        "category": "Mobile"
+    },
+    {
+        "skill": "Android Studio",
+        "img": "/skills/androidStudio.png",
+        "category": "Mobile"
+    },
+    {
+        "skill": "Java",
+        "img": "/skills/java.png",
+        "category": "General Programming"
+    },
+    {
+        "skill": "Python",
+        "img": "/skills/python.png",
+        "category": "General Programming"
+    },
+    {
+        "skill": "OOP",
+        "img": "/skills/oop.png",
+        "category": "General Programming"
+    },
+    {
+        "skill": "Git",
+        "img": "/skills/git.png",
+        "category": "General Programming"
+    },
+    {
+        "skill": "Unity",
+        "img": "/skills/unity.png",
+        "category": "Game Development"
+    },
+    {
+        "skill": "Blender",
+        "img": "/skills/blender.png",
+        "category": "Game Development"
+    },
+    {
+        "skill": "GeneXus",
+        "img": "/skills/genexus.png",
+        "category": "Low-Code"
+    }
+
+]
