@@ -25,12 +25,15 @@
     margin: 0 auto;
   }
 
+  p{
+    margin-top: 5px;
+  }
+
   #GeneXus {
     width: auto;
     height: 40px;
     margin: 0 auto;
   }
-
 
 }
 
@@ -54,6 +57,7 @@
     gap: 15px;
     width: 50%;
     margin-top: 20px;
+    margin-bottom: 15px;
   }
 
   .skill-item {
@@ -63,5 +67,11 @@
       opacity: 1;
       transform: scale(1.2);
     }
+  }
+
+
+  .see-project{
+    text-decoration: none;
+    color: $primary-color;
   }
 }

@@ -10,7 +10,9 @@ body {
 }
 
 section{
-    margin: 40px;
+    padding: 40px;
+    border-radius: 5px;
+
 }
 
 hr {
@@ -23,6 +25,7 @@ hr {
   display: flex;
   flex-direction: column; 
   margin-top: 80px;
+
 }
 
 .title {
