@@ -29,6 +29,10 @@
             {
                 "skill": "Vue.js",
                 "img": "/skills/vue.png"
+            },
+            {
+                "skill": "Figma",
+                "img": "/skills/figma.png"
             }
         ]
     },
@@ -80,7 +84,7 @@
         ]
     },
     {
-        "category": "Game Development",
+        "category": "Game Dev/Design",
         "skills": [
             {
                 "skill": "Unity",

@@ -2,6 +2,22 @@
   {
     "category": "Frontend",
     "projects": [
+      {
+        "name": "BlackJack",
+        "images": [
+          {
+            "image": "/projects/BlackJack/blackjack1.png"
+          }
+        ]
+      },
+      {
+        "name": "App prototype",
+        "images": [
+          {
+            "image": "/projects/AppPrototype/appprototype1.png"
+          }
+        ]
+      }
     ]
   },
   {
@@ -20,8 +36,24 @@
     ]
   },
   {
-    "category": "Game Development",
+    "category": "Game Deve/Design",
     "projects": [
+      {
+        "name": "Blade Scene",
+        "images": [
+          {
+            "image": "/projects/BladeScene/movieScene2.png"
+          }
+        ]
+      },
+      {
+        "name": "Phone",
+        "images": [
+          {
+            "image": "/projects/Phone/phone1.png"
+          }
+        ]
+      }
     ]
   },
   {

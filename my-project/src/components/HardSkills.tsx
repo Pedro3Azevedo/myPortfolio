@@ -43,7 +43,7 @@ function HardSkills() {
                   </div>
                 ))}
               </div>
-              <a className={"see-project"} href="/projects"> <i className="fa-solid fa-arrow-right"></i> See Projects </a>
+              <a className={"see-project"} href={`/projects/${category.category}`}> <i className="fa-solid fa-arrow-right"></i> See Projects </a>
             </div>
           ))}
         </div>
