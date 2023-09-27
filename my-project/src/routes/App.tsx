@@ -1,15 +1,15 @@
-import NavBar from "../components/NavBar.tsx"
-import Home from "../Home.tsx";
 
-
+import AboutMe from "../components/AboutMe.tsx";
+import Skills from "../components/Skills.tsx";
 function App() {
 
 
     return (
         <>
-            <NavBar/>
-            <Home/>
 
+            <AboutMe/>
+            <hr/>
+            <Skills/>
         </>
     )
 }

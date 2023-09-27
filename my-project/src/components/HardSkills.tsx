@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import {Link} from "react-router-dom";
 
 interface SkillItem {
   skill: string;
@@ -43,7 +44,10 @@ function HardSkills() {
                   </div>
                 ))}
               </div>
-              <a className={"see-project"} href={`/projects/${category.category}`}> <i className="fa-solid fa-arrow-right"></i> See Projects </a>
+              <Link to={`/projects/${category.category}`} className={"see-project"}>
+                <i className="fa-solid fa-arrow-right"></i> See Projects
+              </Link>
+              {/*<a className={"see-project"} href={`/projects/${category.category}`}> <i className="fa-solid fa-arrow-right"></i> See Projects </a>*/}
             </div>
           ))}
         </div>

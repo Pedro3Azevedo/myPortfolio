@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 interface ProjectCategoryItem {
     name: string;
@@ -11,10 +12,10 @@ interface CategoryData {
 }
 
 interface ProjectCategoryProps {
-    category: string; // Define a prop for the category
+    category: string | undefined; // Define a prop for the category
 }
 
-function ProjectCategory({ category }: ProjectCategoryProps) {
+function ProjectCategory({category}: ProjectCategoryProps) {
     const [projectCategoryData, setProjectCategoryData] = useState<ProjectCategoryItem[]>([]);
 
     useEffect(() => {
@@ -39,20 +40,24 @@ function ProjectCategory({ category }: ProjectCategoryProps) {
 
     return (
         <>
-            <section id="projects">
-                <div className="container">
-                    <h1 className="title">Projects</h1>
 
-                    {projectCategoryData.map((item) => (
-                        <div key={item.name} className="event">
-                            <div className="left">
-                                <h2>{item.name}</h2>
-                                <img src={item.images[0].image} alt={item.name} />
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </section>
+
+            <h3 className="title">{category}</h3>
+
+
+            <div className="projects-cont">
+
+                {projectCategoryData.map((item) => (
+                    <div key={item.name} className="project">
+                        <h4 className={"project-name"}>{item.name}</h4>
+                        <img src={item.images[0].image} alt={item.name}/>
+                        <Link to={`/projects/${item.name}`} className={"see-project"}>
+                            <i className="fa-solid fa-arrow-right"></i> See More about this project
+                        </Link>
+                    </div>
+                ))}
+            </div>
+
         </>
     );
 }

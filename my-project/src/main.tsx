@@ -9,6 +9,7 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import Projects from "./routes/Projects.tsx";
+import NavBar from "./components/NavBar.tsx";
 
 const router = createBrowserRouter([
     {
@@ -19,10 +20,15 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <Projects />,
     },
+    {
+        path: "/projects/:category", // New route with a parameter
+        element: <Projects />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+      <NavBar/>
       <RouterProvider router={router} />
   </React.StrictMode>,
 )

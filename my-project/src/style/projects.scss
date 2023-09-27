@@ -1,0 +1,40 @@
+@import "vars";
+
+#projects {
+  .projects-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+
+
+    Link{
+      text-decoration: none;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border: 1px solid $primary-color;
+      border-radius: 5px;
+      padding: 10px;
+
+      .project-name {
+        font-weight: lighter;
+        margin-bottom: 10px;
+        justify-self: flex-start;
+      }
+
+      img {
+        width: 90%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+}
