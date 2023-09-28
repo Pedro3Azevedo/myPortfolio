@@ -24,12 +24,12 @@ function ProjectCategory({category}: ProjectCategoryProps) {
                 const response = await fetch("/projects.json"); // Fetch from public folder
                 const jsonData: CategoryData[] = await response.json();
 
-                // Filter projects with category "Frontend"
-                const frontendProjects = jsonData
+
+                const categoryProjects = jsonData
                     .filter((categoryItem) => categoryItem.category === category)
                     .flatMap((categoryItem) => categoryItem.projects);
 
-                setProjectCategoryData(frontendProjects);
+                setProjectCategoryData(categoryProjects);
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
@@ -40,22 +40,20 @@ function ProjectCategory({category}: ProjectCategoryProps) {
 
     return (
         <>
-
-
             <h3 className="title">{category}</h3>
-
-
             <div className="projects-cont">
-
                 {projectCategoryData.map((item) => (
                     <div key={item.name} className="project">
-                        <h4 className={"project-name"}>{item.name}</h4>
-                        <img src={item.images[0].image} alt={item.name}/>
-                        <Link to={`/projects/${item.name}`} className={"see-project"}>
+                        <h4 className="project-name">{item.name}</h4>
+                        <div className="image-container">
+                            <img src={item.images[0].image} alt={item.name}/>
+                        </div>
+                        <Link to={`/projects/${category}/${item.name}`} className="see-project">
                             <i className="fa-solid fa-arrow-right"></i> See More about this project
                         </Link>
                     </div>
                 ))}
+
             </div>
 
         </>

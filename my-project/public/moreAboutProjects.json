@@ -1,0 +1,19 @@
+[
+  {
+    "category": "Frontend",
+    "name": "BlackJack",
+    "images": [
+  {
+    "image": "/projects/BlackJack/blackjack1.png"
+  }
+],
+    "documents": [],
+    "description": "BlackJack game made with HTML, CSS and Javascript",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "github": "https://github.com/Pedro3Azevedo/myPortfolio"
+  }
+]

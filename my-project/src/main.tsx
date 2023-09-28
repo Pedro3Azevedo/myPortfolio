@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Projects from "./routes/Projects.tsx";
 import NavBar from "./components/NavBar.tsx";
+import MoreAbout from "./routes/MoreAbout.tsx";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
         path: "/projects/:category", // New route with a parameter
         element: <Projects />,
+    },
+    {
+        path: "/projects/:category/:name", // New route with a parameter
+        element: <MoreAbout />,
     },
 ]);
 
